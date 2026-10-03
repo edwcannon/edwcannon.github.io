@@ -1,365 +1,243 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Ed W. Cannon — Writer & Philosopher</title>
-<meta
-name="description"
-content="Ed W. Cannon is an independent writer based in Las Vegas whose work examines interpretation, accountability, self-understanding, and relationships with others."
->
-
-<style>
-:root {
---paper: #f3eee6;
---ink: #1b1918;
---soft-ink: #5f5954;
---line: #d6cdc2;
---crimson: #7c2633;
---dark: #181617;
-}
-
-* {
-box-sizing: border-box;
-}
-
-html {
-scroll-behavior: smooth;
-}
-
-body {
-margin: 0;
-background: var(--paper);
-color: var(--ink);
-font-family: Georgia, "Times New Roman", serif;
-line-height: 1.6;
-}
-
-a {
-color: inherit;
-}
-
-.wrap {
-width: min(1120px, calc(100% - 40px));
-margin: auto;
-}
-
-header {
-border-bottom: 1px solid var(--line);
-}
-
-nav {
-min-height: 74px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 24px;
-}
-
-.brand {
-text-decoration: none;
-font-size: 1.2rem;
-letter-spacing: .04em;
-}
-
-.nav-links {
-display: flex;
-gap: 26px;
-font-family: Arial, sans-serif;
-font-size: .78rem;
-letter-spacing: .12em;
-text-transform: uppercase;
-}
-
-.nav-links a {
-text-decoration: none;
-}
-
-.nav-links a:hover {
-color: var(--crimson);
-}
-
-.hero {
-padding: 110px 0 95px;
-border-bottom: 1px solid var(--line);
-}
-
-.eyebrow {
-margin: 0 0 18px;
-color: var(--crimson);
-font-family: Arial, sans-serif;
-font-size: .78rem;
-font-weight: bold;
-letter-spacing: .18em;
-text-transform: uppercase;
-}
-
-h1 {
-max-width: 850px;
-margin: 0;
-font-size: clamp(4rem, 11vw, 8rem);
-font-weight: 400;
-line-height: .91;
-letter-spacing: -.055em;
-}
-
-.intro {
-max-width: 700px;
-margin: 36px 0 0;
-color: var(--soft-ink);
-font-size: clamp(1.15rem, 2.2vw, 1.45rem);
-}
-
-section {
-padding: 90px 0;
-border-bottom: 1px solid var(--line);
-}
-
-.section-label {
-margin-bottom: 44px;
-font-family: Arial, sans-serif;
-font-size: .75rem;
-font-weight: bold;
-letter-spacing: .17em;
-text-transform: uppercase;
-color: var(--crimson);
-}
-
-h2 {
-margin: 0 0 20px;
-font-weight: 400;
-font-size: clamp(2.2rem, 5vw, 4rem);
-line-height: 1;
-}
-
-h3 {
-margin: 0 0 8px;
-font-size: 1.75rem;
-font-weight: 400;
-line-height: 1.1;
-}
-
-.grid {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 60px;
-}
-
-.card {
-padding-top: 22px;
-border-top: 2px solid var(--ink);
-}
-
-.card p {
-color: var(--soft-ink);
-margin-bottom: 0;
-}
-
-.meta {
-margin: 0 0 16px;
-color: var(--crimson);
-font-family: Arial, sans-serif;
-font-size: .72rem;
-font-weight: bold;
-letter-spacing: .12em;
-text-transform: uppercase;
-}
-
-.about-copy {
-max-width: 760px;
-font-size: 1.2rem;
-color: var(--soft-ink);
-}
-
-.contact {
-background: var(--dark);
-color: var(--paper);
-}
-
-.contact .section-label {
-color: #d9979f;
-}
-
-.contact a {
-color: var(--paper);
-text-underline-offset: 5px;
-}
-
-footer {
-background: var(--dark);
-color: #aaa19a;
-padding: 28px 0 45px;
-font-family: Arial, sans-serif;
-font-size: .8rem;
-}
-
-@media (max-width: 720px) {
-nav {
-align-items: flex-start;
-padding: 22px 0;
-flex-direction: column;
-}
-
-.nav-links {
-width: 100%;
-justify-content: space-between;
-gap: 12px;
-font-size: .68rem;
-}
-
-.hero {
-padding: 76px 0 70px;
-}
-
-section {
-padding: 68px 0;
-}
-
-.grid {
-grid-template-columns: 1fr;
-gap: 44px;
-}
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ed W. Cannon — Books, Essays & Philosophy</title>
+  <meta name="description" content="Books, essays, and philosophical work by Ed W. Cannon.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-config.js"></script>
 </head>
-
 <body>
-
-<header>
-<nav class="wrap">
-<a class="brand" href="#">Ed W. Cannon</a>
-
-<div class="nav-links">
-<a href="#books">Books</a>
-<a href="#writing">Writing</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</div>
-</nav>
+<header class="site-header">
+  <nav class="wrap nav">
+    <a class="brand" href="#top">Ed W. Cannon</a>
+    <div class="nav-links">
+      <a href="#free-ebook">Free Ebook</a>
+      <a href="#writing">Writing</a>
+      <a href="#books">Books</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
 </header>
 
-<main>
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Writer · Philosophy</p>
+      <h1>Ed W.<br>Cannon</h1>
+      <p class="hero-copy">
+        Independent writer whose work examines interpretation, accountability,
+        self-understanding, artificial intelligence, and the ways we meet and
+        understand one another.
+      </p>
+      <div class="hero-mark">Books · Essays · Dialogue</div>
+    </div>
+  </section>
 
-<section class="hero">
-<div class="wrap">
-<p class="eyebrow">Writer · Philosophy · Las Vegas</p>
+  <section class="free-book" id="free-ebook">
+    <div class="wrap free-grid">
+      <div class="cover-frame">
+        <img src="when-one-flourishes.jpg"
+             alt="Cover of When One Flourishes: The Garden, the Wall, and the Desert by Ed W. Cannon">
+      </div>
+      <div class="free-copy">
+        <p class="section-label">Free Ebook</p>
+        <h2>When One Flourishes</h2>
+        <p><em>The Garden, the Wall, and the Desert</em></p>
+        <p>
+          A free digital essay on flourishing, limits, relation, and the worlds
+          our ways of living make available to ourselves and one another.
+        </p>
+        <div class="signup-box">
+          <strong>Free with email updates</strong>
+          <span id="kit-status">
+            Join the reading list and receive the ebook by email.
+          </span>
+          <div class="button-row">
+            <a class="btn" id="kit-link" data-config-link hidden href="#">Get the Free Ebook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h1>Ed W.<br>Cannon</h1>
+  <section class="writing" id="writing">
+    <div class="wrap writing-grid">
+      <div>
+        <p class="section-label">Free Writing</p>
+        <h2>Essays meant to be read.</h2>
+        <p class="deck">
+          Selected work is published here freely. Featured appearances and
+          publications elsewhere will be added when there is something worth
+          pointing toward.
+        </p>
+      </div>
+      <article class="article-card">
+        <p class="meta">Free Article · Communication</p>
+        <h3>Good Talk: Kairotic Affordance and the Ethics of Disclosure</h3>
+        <p class="subtitle">
+          On timing, proportion, agency, and saying enough for the next honest
+          interaction to become possible.
+        </p>
+        <p class="summary">
+          What makes a moment ready for speech—and what does another person need
+          to know in order to remain able to answer for themselves?
+        </p>
+        <div class="button-row">
+          <a class="btn secondary" href="good-talk.html">Read Free</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<p class="intro">
-Independent writer based in Las Vegas whose philosophical work examines
-interpretation, accountability, self-understanding, and our relationships
-with others.
-</p>
-</div>
-</section>
+  <section class="books" id="books">
+    <div class="wrap">
+      <div class="books-intro">
+        <div>
+          <p class="section-label">For Those Curious</p>
+          <h2>A philosophical dialogue over time.</h2>
+        </div>
+        <p>
+          Three books developed through sustained dialogue with ChatGPT,
+          moving from meeting, to self-understanding, to the shared pictures
+          through which people interpret Reality and one another.
+        </p>
+      </div>
 
-<section id="books">
-<div class="wrap">
-<div class="section-label">Books</div>
+      <div class="book-grid">
+        <article class="book">
+          <div class="book-cover">
+            <img src="book-1.jpg" alt="Cover of For Those Curious: A Method of Meeting">
+          </div>
+          <div class="book-body">
+            <p class="meta">Available Now</p>
+            <h3>For Those Curious</h3>
+            <p class="subtitle">A Method of Meeting</p>
+            <p class="desc">
+              A philosophical dialogue about meeting ourselves, one another,
+              artificial intelligence, and Reality without pretending that
+              encounter can be reduced to final answers.
+            </p>
+            <div class="button-row">
+              <a class="btn" id="amazon-book1" data-config-link hidden href="#">Amazon · Kindle & Paperback</a>
+              <a class="btn secondary" id="apple-book1" data-config-link hidden href="#">Apple Books</a>
+            </div>
+          </div>
+        </article>
 
-<div class="grid">
+        <article class="book">
+          <div class="book-cover">
+            <img src="book-2.jpg" alt="Cover of For Those Still Curious: Meeting Ourselves Over Time">
+          </div>
+          <div class="book-body">
+            <p class="meta">Coming Soon</p>
+            <h3>For Those Still Curious</h3>
+            <p class="subtitle">Meeting Ourselves Over Time</p>
+            <p class="desc">
+              The method turns inward: competing voices, changing selves,
+              revision, Limits, and the work of refusing unquestioned authority
+              to any single present Account.
+            </p>
+          </div>
+        </article>
 
-<article class="card">
-<p class="meta">A Philosophical Dialogue Over Time</p>
-<h3>For Those Curious</h3>
-<p><em>A Method of Meeting</em></p>
-<p>
-The first work in an ongoing philosophical dialogue concerned with
-how we meet ourselves, others, and the accounts through which we
-understand the world.
-</p>
-</article>
+        <article class="book">
+          <div class="book-cover">
+            <img src="book-3.jpg" alt="Cover of For Those Still Curious: Meeting Murals">
+          </div>
+          <div class="book-body">
+            <p class="meta">Coming Soon</p>
+            <h3>For Those Still Curious</h3>
+            <p class="subtitle">Meeting Murals</p>
+            <p class="desc">
+              The dialogue turns outward toward Murals: the shared pictures
+              through which people interpret Reality, organize institutions,
+              authorize judgment, and encounter one another.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<article class="card">
-<p class="meta">A Philosophical Dialogue Over Time</p>
-<h3>For Those Still Curious</h3>
-<p><em>Meeting Ourselves Over Time</em></p>
-<p>
-A continuation of the inquiry into identity, interpretation,
-revision, and what it means to remain accountable across time.
-</p>
-</article>
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <p class="section-label">About</p>
+        <h2>Philosophy as a practice of meeting.</h2>
+      </div>
+      <div class="about-copy">
+        <p>
+          Ed W. Cannon is an independent writer whose philosophical work
+          examines interpretation, accountability, self-understanding, and the
+          ways we meet and understand others.
+        </p>
+        <p>
+          His books were developed through sustained dialogue with ChatGPT,
+          exploring what can emerge when human and artificial intelligence
+          remain bounded, revisable, and accountable to one another while
+          thinking together over time.
+        </p>
+      </div>
+    </div>
+  </section>
 
-</div>
-</div>
-</section>
-
-<section id="writing">
-<div class="wrap">
-<div class="section-label">Writing</div>
-
-<div class="grid">
-
-<article class="card">
-<p class="meta">Philosophy · Reconstruction</p>
-<h3>The Distant World</h3>
-<p><em>Pain, Desire, and the Accountability of Reconstruction</em></p>
-<p>
-Pain can disclose genuine injury without automatically granting our
-interpretation of that injury authority over everyone who must
-inhabit what comes next.
-</p>
-</article>
-
-<article class="card">
-<p class="meta">Philosophy · Romance</p>
-<h3>On Rose-Colored Paint and Romance</h3>
-<p><em>Love, Regard, and the Conditions That Remain</em></p>
-<p>
-What happens when the conditions that first made a relationship
-desirable begin to disappear—and can Romance color Reality without
-requiring either person to stop seeing it?
-</p>
-</article>
-
-</div>
-</div>
-</section>
-
-<section id="about">
-<div class="wrap">
-<div class="section-label">About</div>
-
-<h2>Philosophy as a practice of meeting.</h2>
-
-<div class="about-copy">
-<p>
-Ed W. Cannon is an independent writer based in Las Vegas whose
-philosophical work examines interpretation, accountability,
-self-understanding, and the ways we meet and understand others.
-</p>
-
-<p>
-His books were developed through sustained dialogue with ChatGPT,
-exploring what can emerge when human and artificial intelligence
-remain bounded, revisable, and accountable to one another while
-thinking together over time.
-</p>
-</div>
-</div>
-</section>
-
-<section class="contact" id="contact">
-<div class="wrap">
-<div class="section-label">Contact</div>
-
-<h2>Get in touch.</h2>
-
-<p>
-<a href="mailto:edwcannon@proton.me">edwcannon@proton.me</a>
-</p>
-</div>
-</section>
-
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="section-label">Contact</p>
+        <h2>Get in touch.</h2>
+        <p><a href="mailto:edwcannon@proton.me">edwcannon@proton.me</a></p>
+      </div>
+      <div>
+        <p class="section-label">Support</p>
+        <p class="support-copy">
+          If the books or essays have been useful to you, you can help support
+          the continued work.
+        </p>
+        <div class="button-row">
+          <a class="btn gold" id="kofi-link" data-config-link hidden href="#">Support the Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
-<footer>
-<div class="wrap">
-© 2026 Ed W. Cannon
-</div>
+<footer class="site-footer">
+  <div class="wrap">© 2026 Ed W. Cannon</div>
 </footer>
 
+<script>
+(function () {
+  const cfg = window.SITE_CONFIG || {};
+  const links = [
+    ["amazon-book1", cfg.amazonBook1],
+    ["apple-book1", cfg.appleBook1],
+    ["kit-link", cfg.kitSignup],
+    ["kofi-link", cfg.kofi]
+  ];
+
+  links.forEach(([id, url]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (url) {
+      el.href = url;
+      el.hidden = false;
+      if (/^https?:/.test(url)) {
+        el.target = "_blank";
+        el.rel = "noopener noreferrer";
+      }
+    }
+  });
+
+  if (!cfg.kitSignup) {
+    const status = document.getElementById("kit-status");
+    if (status) status.textContent =
+      "Email delivery is being connected. The free ebook will be available here shortly.";
+  }
+})();
+</script>
 </body>
 </html>
