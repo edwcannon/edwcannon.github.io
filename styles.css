@@ -398,3 +398,12 @@ h3 {
   .book { width: min(410px, 100%); margin: 0 auto; }
   .books-intro { align-items: flex-start; flex-direction: column; }
 }
+
+
+/* Free downloads and the expanded reading list */
+.article-list { display: grid; gap: 44px; min-width: 0; }
+.book-cover img { object-fit: contain; }
+.source-text p { white-space: pre-line; overflow-wrap: anywhere; }
+.article-body h3 { margin-top: 2em; font-size: 1.5em; }
+a:focus-visible { outline: 3px solid var(--crimson); outline-offset: 5px; }
+.books a:focus-visible { outline-color: var(--gold-soft); }
